@@ -1,0 +1,60 @@
+@import 'variables';
+
+body {
+    background-color: $color-fondo;
+}
+
+h1 {
+    background-color: $color-primario;
+    padding: 20px;
+    text-align: center;
+    color: $color-secundario;
+}
+
+.navbar-brand, .nav-link {
+    color: $color-secundario;
+}
+
+.container-fluid {
+    background-color: $color-fondo-navbar;
+}
+
+.contenido {
+    padding: 20px;
+    background-color: $color-fondo-contenido;
+}
+
+.article {
+    background-color: #ffc0cb;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #430046;
+    margin-bottom: 20px;
+}
+
+.article .imagen img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    body {
+        background-color: #ea7af0;
+        color: #000;
+    }
+
+    h1 {
+        background-color: #c400f5;
+        color: #430046;
+    }
+}
+
+.navbar {
+    background-color: $color-fondo-navbar; 
+}
+
+footer {
+    background-color: $color-fondo-footer;
+    color: $color-texto-footer;
+}
