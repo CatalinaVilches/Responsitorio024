@@ -1,0 +1,43 @@
+$color-primary: #4e034e;
+$color-secondary: #404447;
+$color-text: #333;
+$color-background: #c7c7c7;
+$color-title: rgb(252, 229, 252);
+
+$font-family-base: 'Arial', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 16px;
+
+$border-radius: 10px;
+$pink: #FFC0CB;
+
+.contenido {
+    margin-top: 20px;
+}
+
+.article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.article .imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.article {
+    text-align: center; /* Centrar el contenido si es necesario */
+    margin-bottom: 20px; /* Espacio entre cada artículo */
+}
+
+.article .imagen img {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen al 100% */
+    height: auto; /* Mantener la proporción de la imagen */
+}

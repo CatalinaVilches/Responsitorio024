@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.contenido {
+  margin-top: 20px;
+}
+
+.article {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.article .imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.article h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #c7c7c7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #FFC0CB;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+.nav-link.active {
+  color: #404447;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background-color: rgba(199, 199, 199, 0.7);
+  color: #333;
+  padding: 40px;
+  border-radius: 10px;
+}
+.carousel-caption h5 {
+  color: #4e034e;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+main {
+  background-color: rgb(252, 229, 252);
+  padding: 40px 0;
+}
+
+main h2 {
+  color: #4e034e;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main p {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+.formulario-contacto {
+  max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
+  margin: auto; /* Centra el formulario horizontalmente */
+  padding: 20px; /* Espaciado interno para que no quede pegado a los bordes */
+}
+
+/*# sourceMappingURL=styles.css.map */
